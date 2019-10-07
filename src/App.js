@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { MainHeader } from './components/header'
+import { BrowserRouter, Route } from 'react-router-dom'
+import { Footer } from './components/footer'
+import Home from './containers/MainLanding'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to React Chandigarh!
-        </p>
-        <a
-          className="App-link"
-          href="https://www.meetup.com/Chandigarh-React-Developers/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Visit our meetup group.
-        </a>
-      </header>
+      <BrowserRouter>
+        <MainHeader />
+        <Route exact path="/" component={Home} />                         
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,20 @@
+.nav-tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex
+}
+.nav-tabs li a {
+  float: left;
+  padding: 14px 35px;
+  font-weight: 500;
+  color: #494949;
+  background: #eee;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  cursor: pointer;
+}
+.nav-tabs li a.active {
+    background: #4DB7FE;
+    color: #FFFFFF;
+}
