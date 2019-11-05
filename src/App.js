@@ -14,6 +14,8 @@ function App() {
         <Route path="/about" component={() => <p>About</p>} />
         <Route path="/contact" component={() => <p>Contact</p>} />
         <Route path="/team" component={() => <p>Team</p>} />
+        <Route path="/news" component={() => <p>News</p>} />
+        <Route path="/blogs" component={() => <p>Blogs</p>} />
         <Route path="/" component={() => (
           <>
             <img src={logo} className="App-logo" alt="logo" />
