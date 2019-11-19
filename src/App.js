@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import Navigation from './Navigation';
+import AboutUs from './components/About';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Navigation />
       </header>
       <Switch>
-        <Route path="/about" component={() => <p>About</p>} />
+        <Route path="/about" component={AboutUs} />
         <Route path="/contact" component={() => <p>Contact</p>} />
         <Route path="/team" component={() => <p>Team</p>} />
         <Route path="/news" component={() => <p>News</p>} />
