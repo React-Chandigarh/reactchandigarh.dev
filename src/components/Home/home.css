@@ -1,0 +1,12 @@
+.pastEvents {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+.pastEvents__list {
+    flex-wrap: wrap;
+    width: 100%
+}
+.pastEvents__list li {
+    width: 100%
+}
