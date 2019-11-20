@@ -4,6 +4,7 @@ import './App.css';
 import Navigation from './Navigation';
 import AboutUs from './components/About';
 import Home from './components/Home/';
+import Events from './components/Events/';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path="/contact" component={() => <p>Contact</p>} />
         <Route path="/team" component={() => <p>Team</p>} />
         <Route path="/news" component={() => <p>News</p>} />
-        <Route path="/blogs" component={() => <p>Blogs</p>} />
+        <Route path="/events" component={Events} />
         <Route path="/" component={Home}
         />
       </Switch>
