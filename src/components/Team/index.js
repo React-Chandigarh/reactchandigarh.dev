@@ -55,7 +55,7 @@ const Team = () => (
                 </div>
                 <div className="team__member">
                     <div className="team__member_image">
-                        <img src={require('./female.jpeg')} alt="Manjot" />
+                        <img src={require('./manjot.jpg')} alt="Manjot" />
                     </div>
                     <h4>Manjot</h4>
                 </div>
