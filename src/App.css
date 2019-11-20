@@ -18,6 +18,11 @@
 .App-link {
   color: #61dafb;
 }
+.App-link-button {
+  border: 3px solid #61dafb;
+  padding: 6px 10px;
+  font-weight: 900;
+}
 
 @keyframes App-logo-spin {
   from {

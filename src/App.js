@@ -5,6 +5,7 @@ import Navigation from './Navigation';
 import AboutUs from './components/About';
 import Home from './components/Home/';
 import Events from './components/Events/';
+import Team from './components/Team/';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Switch>
         <Route path="/about" component={AboutUs} />
         <Route path="/contact" component={() => <p>Contact</p>} />
-        <Route path="/team" component={() => <p>Team</p>} />
+        <Route path="/team" component={Team} />
         <Route path="/news" component={() => <p>News</p>} />
         <Route path="/events" component={Events} />
         <Route path="/" component={Home}
