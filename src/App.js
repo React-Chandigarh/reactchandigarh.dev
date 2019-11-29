@@ -5,12 +5,14 @@ import AboutUs from './components/About';
 import Home from './components/Home/';
 import Events from './components/Events/';
 import Team from './components/Team/';
+import { Banner } from './components/Banner'
 import { MainHeader } from './components/Header'
 
 function App() {
   return (
     <div className="App">
       <MainHeader />
+      <Banner bannerTitle="Welcome to React Chandigarh!"  />
       <Switch>
         <Route path="/about" component={AboutUs} />
         <Route path="/contact" component={() => <p>Contact</p>} />
