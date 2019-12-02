@@ -1,0 +1,1 @@
+export { default as EventWidget } from './imageWidget'

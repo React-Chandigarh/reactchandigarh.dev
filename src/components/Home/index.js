@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Banner } from '../Banner'
 import './home.css';
 
 const Home = () => (
     <>
-        <img src={logo} className="App-logo" alt="logo" />
+        <Banner bannerTitle="Welcome to React Chandigarh!"  />
         <p>
             Welcome to React Chandigarh!
         </p>
