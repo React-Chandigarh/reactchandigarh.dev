@@ -1,9 +1,11 @@
 import React from 'react'
+import logo from '../../images/logo.jpg';
 
 const Logo = () => {
     return (
         <>
-            <h1>ReactChandigarhDev</h1>
+            <br />
+            <img src={logo} alt="React Chandigarh" />
         </>
     )
 }
