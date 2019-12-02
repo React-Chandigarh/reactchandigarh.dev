@@ -5,9 +5,7 @@ import './home.css';
 const Home = () => (
     <>
         <Banner bannerTitle="Welcome to React Chandigarh!"  />
-        <p>
-            Welcome to React Chandigarh!
-        </p>
+        <br />
         <a
             className="App-link"
             href="https://www.meetup.com/Chandigarh-React-Developers/"
