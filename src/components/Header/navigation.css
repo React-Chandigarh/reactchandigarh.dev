@@ -1,8 +1,6 @@
 ul {
     display: flex;
-    width: 80vw;
     justify-content: space-around;
-    background: rgba(0,0,0,0.1);
     padding: 15px 5px;
 }
 li {

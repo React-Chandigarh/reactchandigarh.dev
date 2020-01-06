@@ -4,10 +4,12 @@
   
   const Header = () => {
       return (
-        <header className="App-header">
-          <Logo />
-          <Navigation />
-        </header>
+        <div style={{ width: '80%', margin: '0 auto' }}>
+          <header className="App-header">
+            <div style={{ width: '40%' }} ><Logo /></div>
+            <Navigation />
+          </header>
+        </div>
       )
   }
 

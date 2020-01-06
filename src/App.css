@@ -10,16 +10,14 @@
 
 .App-header {
   display: flex;
-  flex-direction: column;
+  font-size: 16px;
+  justify-content: space-between;
   align-items: center;
-  font-size: calc(10px + 2vmin);
 }
-.App-header ul {
-  border: 1px dotted rgba(255, 255, 255, 0.3);
-  border-radius: 8px;
-}
+
 .App-header ul a{
-  color: #fff;
+  color: rgb(34, 34, 34);
+  padding: 0 12px;
 }
 
 .App-link {
