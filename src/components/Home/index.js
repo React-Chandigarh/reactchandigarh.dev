@@ -1,31 +1,19 @@
 import React from 'react';
-import { Banner } from '../Banner'
+import { Banner } from '../Banner';
+import banner from '../../images/banner.jpg';
 import './home.css';
 
 const Home = () => (
-    <>
-        <Banner bannerTitle="Welcome to React Chandigarh!"  />
-        <br />
-        <a
-            className="App-link"
-            href="https://www.meetup.com/Chandigarh-React-Developers/"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Visit our meetup group.
-        </a>
-        <br />
-        <br />
-        <a
-            className="App-link App-link-button"
-            href="https://forms.gle/sjaaCwG65zVtKsMF6"
-            target="_blank"
-            rel="noopener noreferrer"
-        >Please let us know if you have any Feedback for us.</a>
-        <br />
-        <br />
-        <p className="App-link">Email us at reactdevchd@gmail.com</p>
-    </>
+    <div style={{ marginTop: 90 }} >
+        <div className="typography" style={{ width: '70%', margin: '0 auto' }}>
+            <h2 style={{ fontWeight: 300, fontSize: 76, fontFamily: "'Roboto', sans-serif", lineHeight: '95px', color: '#222' }}>
+                <strong>Learn</strong>,
+                <strong>&nbsp;Grow</strong>, and
+                <strong>&nbsp;Share</strong> the most popular and loved
+                <strong>&nbsp;JavaScript front-end</strong> library together.</h2>
+        </div>
+        <img src={banner} alt="banner" />
+    </div>
 );
 
 export default Home;
