@@ -7,3 +7,6 @@ Please create an issue by adding talk label to it or email us at reactdevchd@gma
 Your name, profile (linkedin, twitter), talk title, description and pre-requists.
 
 All the first time speakers are also invited to submit their talk. Don't worry we will help you in that.
+
+## Meetup Announcements
+Please follow our meetup [page](https://www.meetup.com/Chandigarh-React-Developers/) for all the announcements.
