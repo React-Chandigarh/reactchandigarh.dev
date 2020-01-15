@@ -75,9 +75,10 @@ const Team = ({classes}) => (
                 </div>
                 <div className={classes.whitBox}>
                     <div className="team__member_image">
-                        <img src={require('./../../images/male.jpeg')} alt="Saurav" />
+                        <img src={require('./../../images/sourabh.jpg')} alt="Sourabh" />
                     </div>
-                    <h4>Saurav</h4>
+                    <h4>Sourabh</h4>
+                    <SocialIcon className={classes.socialIcon} url="https://twitter.com/groversourabh" />
                 </div>
                 <div className={classes.whitBox}>
                     <div className="team__member_image">
