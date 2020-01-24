@@ -1,6 +1,4 @@
 import React from 'react';
-import { Banner } from '../Banner';
-import banner from '../../images/banner.jpg';
 import './home.css';
 
 const Home = () => (
@@ -12,7 +10,6 @@ const Home = () => (
                 <strong>&nbsp;Share</strong> the most popular and loved
                 <strong>&nbsp;JavaScript front-end</strong> library together.</h2>
         </div>
-        <img src={banner} alt="banner" />
     </div>
 );
 
